@@ -1,0 +1,24 @@
+h1{
+    background: rgb(72, 34, 161);
+}
+.stih{
+    border: 5px solid gray;
+    color: rgb(54, 6, 176);
+    font-size: 22pt;
+    margin: 10px;
+    padding-left: 15px;
+}
+.stih-2{
+    border: 5px solid gray;
+    border-radius: 15px;
+    color: rgb(54, 6, 176);
+    font-size: 22pt;
+    margin: 10px;
+    padding-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.par {
+    text-align: center;
+    font-size: 22pt;
+    text-shadow: 4px 1px green;
+}
