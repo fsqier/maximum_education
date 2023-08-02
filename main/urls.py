@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from app_advertisements.views import index
+from app_lesson_4.views import lesson_4
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', index)
+    path('home/', index),
+    path('lesson_4/', lesson_4)
 ]
