@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from app_advertisements.views import index
 from app_advertisements.views import home
+from app_advertisements.views import top_sellers
 from app_lesson_4.views import lesson_4
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('', home,name='home'),
     path('home/', index),
+    path('top-sellers/', top_sellers, name='top_sellers'),
     path('lesson_4/', lesson_4)
 ]
