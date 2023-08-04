@@ -1,1 +1,6 @@
-
+python -m venv venv
+venv/Scripts/activate - запуск во
+django-admin startproject <name> . - создание проекта
+python manage.py runserver - запуск сервера
+python manage.py startapp <name> - создание приложения
+{% url 'top_sellers' %}
