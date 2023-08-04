@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', index),
     path('lesson_4/', lesson_4)
+    path('', home)
 ]
