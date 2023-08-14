@@ -3,4 +3,13 @@ venv/Scripts/activate - запуск во
 django-admin startproject <name> . - создание проекта
 python manage.py runserver - запуск сервера
 python manage.py startapp <name> - создание приложения
-
+py manage.py makemigrations
+py manage.py migrate 
+py manage.py createsuperuser - создание аккаунта админа
+py manage.py shell
+from <приложение>.models import <class> пример:from app_advertisements.models import Advertisement
+<переменная> = <class>(присваиваешь всем параметрам что-то) пример:adv1 = Advertisement(title='Дошик', description='Дошик с помидором',price=26, auction=True)
+<переменная>.save() - coхранить запись пример:adv1.save()
+from django.db import connection
+connection.queries
+exit()
