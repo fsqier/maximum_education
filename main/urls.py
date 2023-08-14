@@ -21,7 +21,7 @@ from app_advertisements.views import home
 from app_advertisements.views import top_sellers
 from app_lesson_4.views import lesson_4
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin
     path('', home,name='home'),
     path('home/', index),
     path('top-sellers/', top_sellers, name='top_sellers'),
